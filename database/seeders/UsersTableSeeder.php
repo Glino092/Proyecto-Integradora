@@ -41,5 +41,14 @@ class UsersTableSeeder extends Seeder
             'updated_at' => now(),
             'perfil' => 'admin'
         ]);
+        DB::table('users')->insert([
+            'name' => 'Rodrigo Isaac',
+            'email' => 'rodrigotellez1111@gmail.com',
+            'email_verified_at' => now(),
+            'password' => Hash::make('123456789'),
+            'created_at' => now(),
+            'updated_at' => now(),
+            'perfil' => 'admin'
+        ]);
     }
 }
