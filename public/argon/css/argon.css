@@ -8030,8 +8030,12 @@ button.bg-dark:focus
 }
 
 .bg-default
+/*
+Aqui se le cambia el color kbron :3
+de esta abajo del footer
+*/
 {
-    background-color: #172b4d !important;
+    background-color: #fcfdff !important;
 }
 
 a.bg-default:hover,
